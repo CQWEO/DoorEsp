@@ -57,13 +57,13 @@ while true do
                         frame.Size = UDim2.new(9, 5, 9, 5)
                         frame.BorderSizePixel = 7
                         frame.BackgroundTransparency = 2.5
-                        frame.BackgroundColor3 = Color3.new(0, 1, 0),
-Color3.new(0, 2, 0),
-Color3.new(0, 3, 0),
-Color3.new(0, 4, 0),
-Color3.new(0, 5, 0),
-Color3.new(0, 6, 0),
-Color3.new(0, 7, 0)
+                        frame.ColorShift = (Color3.new(0, 1, 0) > 
+Color3.new(0, 2, 0) > 
+Color3.new(0, 3, 0) > 
+Color3.new(0, 4, 0) > 
+Color3.new(0, 5, 0) > 
+Color3.new(0, 6, 0) > 
+Color3.new(0, 7, 0))()
                     end
                 end
             end
